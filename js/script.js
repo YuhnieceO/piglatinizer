@@ -7,11 +7,14 @@
 // Document Ready Function. All of your jQuery should go in here. 
 $( document ).ready(function() {
   
-
+returns
 
 
 });
 
+var words = "bella is a baddie and you know it mannnn";
+var list = words.split(" ");
+console.log(list);
 
 // Create the wordToPigLatin function that takes a word as a parameter and returns a transfromed word. 
 
