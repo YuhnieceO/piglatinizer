@@ -7,18 +7,36 @@
 // Document Ready Function. All of your jQuery should go in here. 
 $( document ).ready(function() {
   
-returns
+$("#submit").click(function(){
+		var userInput = $("#input").val();
+		$("#display").append(userInput);
+		console.log(userInput);
+		
+		var sentence = userInput.split(" ");
+		console.log(sentence);
+		
+		
+	});
+
+
+
+
 
 
 });
 
-var words = "bella is a baddie and you know it mannnn";
-var list = words.split(" ");
-console.log(list);
 
 // Create the wordToPigLatin function that takes a word as a parameter and returns a transfromed word. 
-
-
+function sentenceToPigLatin (x){ 
+	var words = x.split(" ");
+ function wordToPigLatin (x) {
+ 	
+ 	
+ }
+ 
+	
+}
+	
 
 
 
